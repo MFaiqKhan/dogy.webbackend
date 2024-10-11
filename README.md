@@ -13,13 +13,12 @@ This is the backend service for the Dogy application, which provides AI-powered 
 - `.gitignore`: Specifies intentionally untracked files to ignore.
 - `.env`: (Not in repository) Contains environment variables.
 - `test_api.py`: Contains tests for the API endpoints.
-- `__pycache__/`: Directory for Python bytecode cache.
 
 ## Setup
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/dogy.webbackend.git
+   git clone https://github.com/MFaiqKhan/dogy.webbackend.git
    cd dogy.webbackend
    ```
 
