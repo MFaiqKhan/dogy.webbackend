@@ -49,7 +49,7 @@ async def run_tests(test_cases: List[str]):
 if __name__ == "__main__":
     test_cases = [
         "I need some toys for outdoor play for my dog. Any dog parks nearby?",
-        "Looking for a comfortable bed for my large dog.",
+        "My dog is destroying the sofa.",
         "Can you suggest some durable chew toys for my puppy?",
         "I need a new leash for my dog. Preferably something stylish.",
         "Are there any good dog training accessories you'd recommend?"

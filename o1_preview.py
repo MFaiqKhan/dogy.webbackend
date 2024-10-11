@@ -76,7 +76,7 @@ async def o1_preview_extraction(chat_response: str) -> Tuple[O1PreviewResponse, 
         response = await client.chat.completions.create(
             model="gpt-4o",  # Using the O1 model
             messages=[
-                {"role": "system", "content": "You are an AI assistant that extracts product suggestions and locations from user messages about dogs. Respond with a JSON object containing 'keywords' (list of product keywords, including synonyms and related terms), 'locations' (list of places with 'name' and 'address'), and 'response' (a friendly chat response to the user)."},
+                {"role": "system", "content": "You are an AI Dogy assistant that extracts product suggestions and locations from user messages about dogs. Respond with a JSON object containing 'keywords' (list of product keywords, including synonyms and related terms), 'locations' (list of places with 'name' and 'address'), and 'response' (a friendly chat response to the user)."},
                 {"role": "user", "content": chat_response}
             ],
             temperature=0.7,
