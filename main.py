@@ -21,10 +21,10 @@ from config import settings
 
 app = FastAPI()
 
-# Setup CORS
+# Update the CORS middleware configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=settings.ALLOWED_ORIGINS,
+    allow_origins=["https://dogy-assistent.vercel.app"],  # Add your frontend URL here
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
