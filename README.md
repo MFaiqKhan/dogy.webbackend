@@ -11,7 +11,7 @@ This is the backend service for the Dogy application, which provides AI-powered 
 - `product_data.json`: JSON file containing product information.
 - `requirements.txt`: List of Python dependencies.
 - `.gitignore`: Specifies intentionally untracked files to ignore.
-- `.env`: (Not in repository) Contains environment variables.
+- `.env`: (Not in repository) Contains environment variables, e.g. OPENAI_API_KEY
 - `test_api.py`: Contains tests for the API endpoints.
 
 ## Setup
